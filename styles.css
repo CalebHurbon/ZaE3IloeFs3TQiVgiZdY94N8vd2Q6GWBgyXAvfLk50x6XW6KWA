@@ -38,7 +38,7 @@ table {
 
   #listgrid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     gap: 10px;
     max-width: 90%; /* adjust as needed */
     margin: auto; /* centers the grid container */
@@ -118,6 +118,7 @@ table {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+
 
 
 
