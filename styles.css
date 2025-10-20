@@ -1,0 +1,124 @@
+/* CSS for running Christmas list. */
+
+/* Sets the background color */
+body {
+  background-color: lightblue;
+  font-family: Georgia, Serif;
+  }
+
+
+/*Sets the font size*/
+body {
+  font-size: 100%;}
+
+h1 {
+  font-size: 2.5em;}
+
+h2 {
+  font-size: 1.875em;}
+
+p {
+  text-align: left;
+  font-size: 1.2em;
+  margin-left: 5%;
+  margin-right: 5%;}
+
+
+table {
+  font-size: 1.2em;
+  margin-block: auto auto;
+  margin-left: 5%;
+}
+
+
+
+
+
+
+
+  #listgrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    max-width: 90%; /* adjust as needed */
+    margin: auto; /* centers the grid container */
+    }
+
+
+
+
+
+
+
+#image-container {
+  position: fixed;
+  object-fit: scale-down;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  max-width: auto;
+  z-index: 1;
+  }
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+ .snowflake {
+    position: fixed;
+    background-color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+
+
+
+
+
+/*Makes the button and centers it*/
+
+.button {
+  position: fixed;
+  top:0px;
+  
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  background-color: lightblue;
+  
+  border-style: solid;
+  border-color: white;
+  border-size: 2px;
+
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5em;
+  font-family: Georgia;
+  cursor: pointer;
+
+}
+
+
+/*
+.horizontal-center {
+  margin-top: -7%;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+
+/*
