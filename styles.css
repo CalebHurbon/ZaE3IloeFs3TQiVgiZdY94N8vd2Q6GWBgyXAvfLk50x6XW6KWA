@@ -128,17 +128,10 @@ table {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: Georgia;
   cursor: pointer;
-
 }
-
-
-
-
-
-
 
 .buttonsnow {
   position: fixed;
@@ -156,10 +149,9 @@ table {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: Georgia;
   cursor: pointer;
-
 }
 
 
@@ -176,13 +168,5 @@ table {
   position: absolute;
   left: 50%;
   -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
-
-
-
+  transform: translateX(-50%);}
 /*
-
-
-
